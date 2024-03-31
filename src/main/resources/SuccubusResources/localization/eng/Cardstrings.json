@@ -62,6 +62,10 @@
     "NAME": "Sedate",
     "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies."
   },
+  "${ModID}:ShadeSpirit": {
+    "NAME": "Shade Spirit",
+    "DESCRIPTION": "Enter ${ModID}:Shadow. NL If the enemy intends to Attack, gain !B! Block."
+  },
   "${ModID}:Strike": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
