@@ -28,7 +28,6 @@ public class BuryTheLight extends AbstractEasyCard {
                 addToTop(new ChangeStanceAction(new ShadowStance()));
             }
         }));
-
     }
 
     @Override

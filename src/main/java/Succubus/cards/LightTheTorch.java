@@ -28,7 +28,6 @@ public class LightTheTorch extends AbstractEasyCard {
                 addToTop(new ChangeStanceAction(new FlameStance()));
             }
         }));
-
     }
 
     @Override
