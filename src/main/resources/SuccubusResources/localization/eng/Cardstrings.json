@@ -1,0 +1,83 @@
+{
+  "${ModID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Main description",
+    "UPGRADE_DESCRIPTION": "Upgrade description",
+    "EXTENDED_DESCRIPTION": ["Extra Stuff"]
+  },
+  "${ModID}:BonesOut": {
+    "NAME": "Bones Out",
+    "DESCRIPTION": "Whenever an Attack deals 9 or more unblocked damage, apply !M! Vulnerable."
+  },
+  "${ModID}:BurnToEmerge": {
+    "NAME": "Burn to Emerge",
+    "DESCRIPTION": "Deal !D! damage. NL Enter ${ModID}:Flame."
+  },
+  "${ModID}:BuryTheLight": {
+    "NAME": "Bury the Light",
+    "DESCRIPTION": "If you are in ${ModID}:Shadow, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , otherwise enter Succubus:Shadow."
+  },
+  "${ModID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:FireBolt": {
+    "NAME": "Fire Bolt",
+    "DESCRIPTION": "Deal !D! damage. NL If you are in ${ModID}:Flame, deal !D! damage again."
+  },
+  "${ModID}:Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTION": "Exhaust any number of cards. Gain !B! Block for each card Exhausted. NL Enter ${ModID}:Flame."
+  },
+  "${ModID}:Flamewalker": {
+    "NAME": "Flamewalker",
+    "DESCRIPTION": "Gain !B! Block. NL Enter ${ModID}:Flame."
+  },
+  "${ModID}:GlowingEyes": {
+    "NAME": "Glowing Eyes",
+    "DESCRIPTION": "Apply !M! ${ModID}:Charm."
+  },
+  "${ModID}:LightTheTorch": {
+    "NAME": "Light the Torch",
+    "DESCRIPTION": "If you are in ${ModID}:Flame, draw !M! cards, otherwise enter Succubus:Flame."
+  },
+  "${ModID}:Phantasm": {
+    "NAME": "Phantasm",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Apply !M! Vulnerable."
+  },
+  "${ModID}:Punisher": {
+    "NAME": "Punisher",
+    "DESCRIPTION": "Attacks deal {@@}{!M!|0=0%|1=50%|2=100%|3=150%|4=200%|5=250%|6=300%|7=350%|8=400%|9=450%|10=500%|@=a lot} more damage to enemies with Succubus:Charm."
+  },
+  "${ModID}:Sanctuary": {
+    "NAME": "Sanctuary",
+    "DESCRIPTION": "Gain !B! Block. NL While held, cards will not Exhaust on play."
+  },
+  "${ModID}:Sedate": {
+    "NAME": "Sedate",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies."
+  },
+  "${ModID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:Supplies": {
+    "NAME": "Supplies",
+    "DESCRIPTION": "Unplayable. NL Ethereal. NL If this card is Exhausted, draw !M! cards.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${ModID}:Tenebrosity": {
+    "NAME": "Tenebrosity",
+    "DESCRIPTION": "Draw !M! cards. NL Enter ${ModID}:Shadow."
+  },
+  "${ModID}:TwinClaw": {
+    "NAME": "Twin Claw",
+    "DESCRIPTION": "Deal !D! damage twice. NL Increase this card's damage by !M! this combat."
+  },
+  "${ModID}:VoidSlice": {
+    "NAME": "Void Slice",
+    "DESCRIPTION": "Deal !D! damage. NL Enter ${ModID}:Shadow."
+  }
+}

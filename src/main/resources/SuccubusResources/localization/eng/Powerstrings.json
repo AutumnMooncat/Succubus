@@ -1,0 +1,44 @@
+{
+  "${ModID}:LosePowerPower": {
+    "NAME": "Lose ",
+    "DESCRIPTIONS": ["At the end of your turn, lose #b"," ","."]
+  },
+  "${ModID}:NextTurnPowerPower": {
+    "NAME": "Next Turn ",
+    "DESCRIPTIONS": ["Next turn, gain #b"," ","."]
+  },
+  "${ModID}:BracedPower": {
+    "NAME": "Braced",
+    "DESCRIPTIONS": ["Your next #yBlock gaining card gains #b", " additional #yBlock."]
+  },
+  "${ModID}:ExposedPower": {
+    "NAME": "Exposed",
+    "DESCRIPTIONS": ["Takes #b"," more damage from Attacks this turn."]
+  },
+  "${ModID}:StaggerPower": {
+    "NAME": "Staggered",
+    "DESCRIPTIONS": ["Deals #b"," less damage with Attacks this turn."]
+  },
+  "${ModID}:CardToHandPower": {
+    "NAME": " Next Turn",
+    "DESCRIPTIONS": ["Next turn, add "," into your hand."," copies of "]
+  },
+  "${ModID}:CharmPower": {
+    "NAME": "Charm",
+    "DESCRIPTIONS": ["Deals #b"," less damage with Attacks this turn."]
+  },
+  "${ModID}:DoubleAttackPower": {
+    "NAME": "Double Attack",
+    "DESCRIPTIONS": [
+      "Your next #yAttack is played twice.",
+      "Your next ", " #yAttacks are played twice."]
+  },
+  "${ModID}:BonesOutPower": {
+    "NAME": "Bones Out",
+    "DESCRIPTIONS": ["Whenever an Attack deals #b9 or more unblocked damage, apply #b"," Vulnerable."]
+  },
+  "${ModID}:PunisherPower": {
+    "NAME": "Punisher",
+    "DESCRIPTIONS": ["Attacks deal #b","% additional damage to enemies with #yCharm."]
+  }
+}

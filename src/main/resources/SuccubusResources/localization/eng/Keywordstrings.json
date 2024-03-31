@@ -1,0 +1,53 @@
+[
+  {
+    "ID": "braced",
+    "PROPER_NAME": "Braced",
+    "NAMES": [
+      "braced"
+    ],
+    "DESCRIPTION": "Your next #yBlock gaining card gains additional #yBlock."
+  },
+  {
+    "ID": "exposed",
+    "PROPER_NAME": "Exposed",
+    "NAMES": [
+      "expose",
+      "exposed"
+    ],
+    "DESCRIPTION": "Exposed creatures take more damage from Attacks this turn."
+  },
+  {
+    "ID": "stagger",
+    "PROPER_NAME": "Staggered",
+    "NAMES": [
+      "stagger",
+      "staggered"
+    ],
+    "DESCRIPTION": "Staggered creatures deal less damage with Attacks this turn."
+  },
+  {
+    "ID": "charm",
+    "PROPER_NAME": "Charm",
+    "NAMES": [
+      "charm",
+      "charmed"
+    ],
+    "DESCRIPTION": "Charmed creatures deal less damage with Attacks this turn."
+  },
+  {
+    "ID": "shadow",
+    "PROPER_NAME": "Shadow",
+    "NAMES": [
+      "shadow"
+    ],
+    "DESCRIPTION": "Upon exiting this #yStance, convert your #yBlock into #yTemporary #yHP."
+  },
+  {
+    "ID": "flame",
+    "PROPER_NAME": "Flame",
+    "NAMES": [
+      "flame"
+    ],
+    "DESCRIPTION": "In this #yStance, your Attacks cost #yHP instead of #yEnergy."
+  }
+]

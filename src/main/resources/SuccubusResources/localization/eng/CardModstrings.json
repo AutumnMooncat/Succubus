@@ -1,0 +1,47 @@
+{
+  "${ModID}:EtherealMod": {
+    "EXTENDED_DESCRIPTION": ["Ethereal. NL "]
+  },
+  "${ModID}:ExhaustMod": {
+    "EXTENDED_DESCRIPTION": [" NL Exhaust."]
+  },
+  "${ModID}:PurgeMod": {
+    "EXTENDED_DESCRIPTION": [" NL Purge."]
+  },
+  "${ModID}:RetainMod": {
+    "EXTENDED_DESCRIPTION": ["Retain. NL "]
+  },
+  "${ModID}:GainBlockMod": {
+    "EXTENDED_DESCRIPTION": ["Gain %s Block. NL "]
+  },
+  "${ModID}:ApplyPoisonMod": {
+    "EXTENDED_DESCRIPTION": [" NL Apply %s Poison."]
+  },
+  "${ModID}:DealDamageMod": {
+    "EXTENDED_DESCRIPTION": [" NL Deal %s damage."]
+  },
+  "${ModID}:DealRandomDamageMod": {
+    "EXTENDED_DESCRIPTION": [" NL Deal %s damage to a random enemy."]
+  },
+  "${ModID}:DealAOEDamageMod": {
+    "EXTENDED_DESCRIPTION": [" NL Deal %s damage to ALL enemies."]
+  },
+  "${ModID}:UnlockedMod": {
+    "EXTENDED_DESCRIPTION": ["professor:Masterpiece. NL "]
+  },
+  "${ModID}:ApplyDestabilizedMod": {
+    "EXTENDED_DESCRIPTION": [" NL Apply %s professor:Unstable."]
+  },
+  "${ModID}:XPMod": {
+    "EXTENDED_DESCRIPTION": [" NL XP: "]
+  },
+  "${ModID}:ComboMod": {
+    "EXTENDED_DESCRIPTION": ["${ModID}:Combo. NL "]
+  },
+  "${ModID}:GrabMod": {
+    "EXTENDED_DESCRIPTION": [" NL ${ModID}:Grab."]
+  },
+  "${ModID}:GrabSmallerMod": {
+    "EXTENDED_DESCRIPTION": [" NL If the enemy is smaller than you, ${ModID}:Grab it."]
+  }
+}

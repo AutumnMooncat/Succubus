@@ -1,0 +1,70 @@
+{
+  "${ModID}:ModConfigs": {
+    "TEXT": [
+      "This does nothing yet.",
+      "Enable random card phrases. Defaults: true, 10%.",
+      "Enable random phrases when attacked. Defaults: true, 20%.",
+      "Enable random pre/post combat phrases. Defaults: true, 50%."
+    ],
+    "EXTRA_TEXT": [
+      "The Succubus",
+      "Text."
+    ]
+  },
+  "${ModID}:CrossOver": {
+    "TEXT": [
+      "Enable Succubus Crossover Content"
+    ]
+  },
+  "${ModID}:ModifyAction": {
+    "TEXT": [
+      "Modify"
+    ]
+  },
+  "${ModID}:CleanseAction": {
+    "TEXT": [
+      "Cleanse",
+      "Choose a power to Cleanse.",
+      "Choose "," powers to Cleanse."
+    ]
+  },
+  "${ModID}:GuideAction": {
+    "TEXT": [
+      "Guide",
+      "Choose a card to Guide.",
+      "Choose "," cards to Guide."
+    ]
+  },
+  "${ModID}:RearrangeAction": {
+    "TEXT": [
+      "Rearrange"
+    ]
+  },
+  "${ModID}:SheatheCardsAction": {
+    "TEXT": [
+      "Sheathe",
+      "Choose a card to Sheathe.",
+      "Choose "," cards to Sheathe."
+    ]
+  },
+  "${ModID}:Exhaust": {
+    "TEXT": [
+      "Exhaust",
+      "Choose a card to Exhaust.",
+      "Choose "," cards to Exhaust.",
+      "Choose up to "," card to Exhaust."," cards to Exhaust."
+    ]
+  },
+  "${ModID}:ShadowStance": {
+    "TEXT": [
+      "Shadow",
+      "Upon exiting this #yStance, convert your #yBlock into #yTemporary #yHP."
+    ]
+  },
+  "${ModID}:FlameStance": {
+    "TEXT": [
+      "Flame",
+      "Your Attacks cost #yHP instead of #yEnergy."
+    ]
+  }
+}
