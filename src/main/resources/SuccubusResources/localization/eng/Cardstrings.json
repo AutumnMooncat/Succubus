@@ -41,6 +41,11 @@
     "NAME": "Light the Torch",
     "DESCRIPTION": "If you are in ${ModID}:Flame, draw !M! cards, otherwise enter Succubus:Flame."
   },
+  "${ModID}:NullCard": {
+    "NAME": "Null",
+    "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Exit your Stance."
+  },
   "${ModID}:Phantasm": {
     "NAME": "Phantasm",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Apply !M! Vulnerable."
