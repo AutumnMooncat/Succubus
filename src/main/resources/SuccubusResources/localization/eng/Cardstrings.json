@@ -41,6 +41,10 @@
     "NAME": "Light the Torch",
     "DESCRIPTION": "If you are in ${ModID}:Flame, draw !M! cards, otherwise enter Succubus:Flame."
   },
+  "${ModID}:Malice": {
+    "NAME": "Malice",
+    "DESCRIPTION": "At the end of your turn, if you are in ${ModID}:Shadow, deal !M! damage to ALL enemies."
+  },
   "${ModID}:NullCard": {
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
@@ -69,6 +73,10 @@
   "${ModID}:ShadeSpirit": {
     "NAME": "Shade Spirit",
     "DESCRIPTION": "Enter ${ModID}:Shadow. NL If the enemy intends to Attack, gain !B! Block."
+  },
+  "${ModID}:SoulSeeker": {
+    "NAME": "Soul Seeker",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills an enemy, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} . NL Enter Succubus:Shadow."
   },
   "${ModID}:Strike": {
     "NAME": "Strike",

@@ -40,5 +40,9 @@
   "${ModID}:PunisherPower": {
     "NAME": "Punisher",
     "DESCRIPTIONS": ["Attacks deal #b","% additional damage to enemies with #yCharm."]
+  },
+  "${ModID}:MalicePower": {
+    "NAME": "Malice",
+    "DESCRIPTIONS": ["At the end of your turn, if you are in #yShadow, deal #b"," damage to ALL enemies."]
   }
 }
