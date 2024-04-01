@@ -50,6 +50,10 @@
     "NAME": "Phantasm",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Apply !M! Vulnerable."
   },
+  "${ModID}:PrecisionStrike": {
+    "NAME": "Precision Strike",
+    "DESCRIPTION": "Discard 1 card. NL Deal damage equal to !D! times its cost."
+  },
   "${ModID}:Punisher": {
     "NAME": "Punisher",
     "DESCRIPTION": "Attacks deal {@@}{!M!|0=0%|1=50%|2=100%|3=150%|4=200%|5=250%|6=300%|7=350%|8=400%|9=450%|10=500%|@=a lot} more damage to enemies with Succubus:Charm."
@@ -69,6 +73,10 @@
   "${ModID}:Strike": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:Subterfuge": {
+    "NAME": "Subterfuge",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards."
   },
   "${ModID}:Supplies": {
     "NAME": "Supplies",
