@@ -49,5 +49,13 @@
       "flame"
     ],
     "DESCRIPTION": "In this #yStance, your Attacks cost #yHP instead of #yEnergy."
+  },
+  {
+    "ID": "finale",
+    "PROPER_NAME": "Finale",
+    "NAMES": [
+      "finale"
+    ],
+    "DESCRIPTION": "Effect triggers if you have no other cards in hand."
   }
 ]
