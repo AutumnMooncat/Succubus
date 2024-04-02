@@ -58,5 +58,11 @@
   "${ModID}:PheromonesPower": {
     "NAME": "Pheromones",
     "DESCRIPTIONS": ["Whenever you deal unblocked attack damage, apply #b"," #yCharm."]
+  },
+  "${ModID}:ImageChangePower": {
+    "NAME": "Image Change",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw #b1 less card and gain [E] .",
+      "At the start of your turn, draw #b"," less cards and gain "]
   }
 }

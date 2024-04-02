@@ -41,6 +41,10 @@
     "NAME": "Glowing Eyes",
     "DESCRIPTION": "Apply !M! ${ModID}:Charm."
   },
+  "${ModID}:ImageChange": {
+    "NAME": "Image Change",
+    "DESCRIPTION": "At the start of your turn, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , but draw !M! less card{!M!|>1=s}."
+  },
   "${ModID}:Jettison": {
     "NAME": "Jettison",
     "DESCRIPTION": "Gain !B! Block. NL Discard up to !M! cards."
