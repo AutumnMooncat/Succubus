@@ -33,6 +33,10 @@
     "NAME": "Flamewalker",
     "DESCRIPTION": "Gain !B! Block. NL Enter ${ModID}:Flame."
   },
+  "${ModID}:Gambler": {
+    "NAME": "Gambler",
+    "DESCRIPTION": "Whenever you discard a card from your hand, gain !M! Block."
+  },
   "${ModID}:GlowingEyes": {
     "NAME": "Glowing Eyes",
     "DESCRIPTION": "Apply !M! ${ModID}:Charm."
@@ -64,6 +68,10 @@
   "${ModID}:Phantasm": {
     "NAME": "Phantasm",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Apply !M! Vulnerable."
+  },
+  "${ModID}:Pheromones": {
+    "NAME": "Pheromones",
+    "DESCRIPTION": "Whenever an Attack deals unblocked damage, apply !M! ${ModID}:Charm."
   },
   "${ModID}:PrecisionStrike": {
     "NAME": "Precision Strike",
@@ -115,6 +123,10 @@
   "${ModID}:TwinClaw": {
     "NAME": "Twin Claw",
     "DESCRIPTION": "Deal !D! damage twice. NL Increase this card's damage by !M! this combat."
+  },
+  "${ModID}:UnstablePower": {
+    "NAME": "Unstable Power",
+    "DESCRIPTION": "Whenever you play a card, gain Block equal to {@@}{!M!|>1=!M! times }its cost."
   },
   "${ModID}:VoidSlice": {
     "NAME": "Void Slice",

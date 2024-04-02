@@ -44,5 +44,19 @@
   "${ModID}:MalicePower": {
     "NAME": "Malice",
     "DESCRIPTIONS": ["At the end of your turn, if you are in #yShadow, deal #b"," damage to ALL enemies."]
+  },
+  "${ModID}:GamblerPower": {
+    "NAME": "Gambler",
+    "DESCRIPTIONS": ["Whenever you discard a card from your hand, gain #b"," #yBlock."]
+  },
+  "${ModID}:UnstablePowerPower": {
+    "NAME": "Unstable Power",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, gain #yBlock equal to its cost.",
+      "Whenever you play a card, gain #yBlock equal to #b"," times its cost."]
+  },
+  "${ModID}:PheromonesPower": {
+    "NAME": "Pheromones",
+    "DESCRIPTIONS": ["Whenever you deal unblocked attack damage, apply #b"," #yCharm."]
   }
 }
