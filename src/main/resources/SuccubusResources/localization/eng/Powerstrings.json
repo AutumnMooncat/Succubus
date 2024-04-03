@@ -68,5 +68,9 @@
   "${ModID}:MiragePower": {
     "NAME": "Mirage",
     "DESCRIPTIONS": ["When you obtain #b10 #yMirage, enter #yIllusion."]
+  },
+  "${ModID}:SexyAuraPower": {
+    "NAME": "Sexy Aura",
+    "DESCRIPTIONS": ["Whenever you switch #yStances, apply #b"," #yCharm to ALL enemies."]
   }
 }

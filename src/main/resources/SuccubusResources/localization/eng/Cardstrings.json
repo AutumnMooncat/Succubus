@@ -17,6 +17,10 @@
     "NAME": "Bury the Light",
     "DESCRIPTION": "If you are in ${ModID}:Shadow, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , otherwise enter Succubus:Shadow."
   },
+  "${ModID}:CloseQuarters": {
+    "NAME": "Close Quarters",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${ModID}:Charm."
+  },
   "${ModID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
@@ -92,6 +96,10 @@
   "${ModID}:Sedate": {
     "NAME": "Sedate",
     "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies."
+  },
+  "${ModID}:SexyAura": {
+    "NAME": "Sexy Aura",
+    "DESCRIPTION": "Whenever you change Stances, apply !M! ${ModID}:Charm to ALL enemies."
   },
   "${ModID}:ShadeSpirit": {
     "NAME": "Shade Spirit",
