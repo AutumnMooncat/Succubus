@@ -5,10 +5,7 @@ import Succubus.cards.cardvars.*;
 import Succubus.cards.interfaces.GlowAdjacentCard;
 import Succubus.icons.IconContainer;
 import Succubus.patches.GlowChangePatch;
-import Succubus.powers.BracedPower;
-import Succubus.powers.CharmPower;
-import Succubus.powers.ExposedPower;
-import Succubus.powers.StaggerPower;
+import Succubus.powers.*;
 import Succubus.powers.interfaces.InfusionTriggerPower;
 import Succubus.powers.interfaces.OnUpgradePower;
 import Succubus.relics.AbstractEasyRelic;
@@ -262,6 +259,7 @@ public class MainModfile implements
         BaseMod.addPower(StaggerPower.class, StaggerPower.POWER_ID);
         BaseMod.addPower(ExposedPower.class, ExposedPower.POWER_ID);
         BaseMod.addPower(CharmPower.class, CharmPower.POWER_ID);
+        BaseMod.addPower(MiragePower.class, MiragePower.POWER_ID);
 
         //Wide Potions
         if (Loader.isModLoaded("widepotions")) {

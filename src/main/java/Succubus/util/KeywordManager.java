@@ -12,6 +12,8 @@ public class KeywordManager {
     public static String SHADOW;
     public static String FLAME;
     public static String FINALE;
+    public static String MIRAGE;
+    public static String ILLUSION;
 
     public static String getKeyword(String ID) {
         return keywordMap.getOrDefault(ID, "");

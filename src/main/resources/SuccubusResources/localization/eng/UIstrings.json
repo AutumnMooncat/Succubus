@@ -66,5 +66,11 @@
       "Flame",
       "Your Attacks cost #yHP instead of #yEnergy."
     ]
+  },
+  "${ModID}:IllusionStance": {
+    "TEXT": [
+      "Illusion",
+      "Your next card is played #b3 times, then exit this #yStance."
+    ]
   }
 }

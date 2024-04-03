@@ -64,5 +64,9 @@
     "DESCRIPTIONS": [
       "At the start of your turn, draw #b1 less card and gain [E] .",
       "At the start of your turn, draw #b"," less cards and gain "]
+  },
+  "${ModID}:MiragePower": {
+    "NAME": "Mirage",
+    "DESCRIPTIONS": ["When you obtain #b10 #yMirage, enter #yIllusion."]
   }
 }

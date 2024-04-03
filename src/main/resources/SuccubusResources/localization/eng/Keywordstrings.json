@@ -57,5 +57,21 @@
       "finale"
     ],
     "DESCRIPTION": "Effect triggers if you have no other cards in hand."
+  },
+  {
+    "ID": "mirage",
+    "PROPER_NAME": "Mirage",
+    "NAMES": [
+      "mirage"
+    ],
+    "DESCRIPTION": "When you obtain #b10 #yMirage, enter #yIllusion."
+  },
+  {
+    "ID": "illusion",
+    "PROPER_NAME": "Illusion",
+    "NAMES": [
+      "illusion"
+    ],
+    "DESCRIPTION": "Your next card is played #b3 times, then exit this #yStance."
   }
 ]
