@@ -61,6 +61,10 @@
     "NAME": "Light the Torch",
     "DESCRIPTION": "If you are in ${ModID}:Flame, draw !M! cards, otherwise enter Succubus:Flame."
   },
+  "${ModID}:LoveBeam": {
+    "NAME": "Love Beam",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ${ModID}:Charm, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} and draw !M! card{!M!|>1=s}."
+  },
   "${ModID}:Malice": {
     "NAME": "Malice",
     "DESCRIPTION": "At the end of your turn, if you are in ${ModID}:Shadow, deal !M! damage to ALL enemies."
@@ -137,9 +141,21 @@
     "NAME": "Swift Impact",
     "DESCRIPTION": "Deal !D! damage. NL If you are in a Stance, exit it and deal double damage."
   },
+  "${ModID}:Swingamajig": {
+    "NAME": "Swingamajig",
+    "DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "${ModID}:TailWhip": {
+    "NAME": "Tail Whip",
+    "DESCRIPTION": "Deal !D! damage. NL Apply ${ModID}:Charm equal to unblocked damage dealt."
+  },
   "${ModID}:Tenebrosity": {
     "NAME": "Tenebrosity",
     "DESCRIPTION": "Draw !M! cards. NL Enter ${ModID}:Shadow."
+  },
+  "${ModID}:Thunderbolt": {
+    "NAME": "Thunderbolt",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Exhaust."
   },
   "${ModID}:TwinClaw": {
     "NAME": "Twin Claw",
