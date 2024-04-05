@@ -76,5 +76,9 @@
   "${ModID}:HeartBreakerPower": {
     "NAME": "Heart Breaker",
     "DESCRIPTIONS": ["Whenever you lose HP from a card, deal #b"," damage to a random enemy."]
+  },
+  "${ModID}:HostagePower": {
+    "NAME": "Hostage",
+    "DESCRIPTIONS": ["Whenever you are attacked this turn, this creature also takes #b"," damage."]
   }
 }

@@ -49,6 +49,10 @@
     "NAME": "Heart Breaker",
     "DESCRIPTION": "Whenever you lose HP from a card, deal !M! damage to a random enemy."
   },
+  "${ModID}:HostageTaker": {
+    "NAME": "Hostage Taker",
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, the enemy also takes !M! damage."
+  },
   "${ModID}:ImageChange": {
     "NAME": "Image Change",
     "DESCRIPTION": "At the start of your turn, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , but draw !M! less card{!M!|>1=s}."
