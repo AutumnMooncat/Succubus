@@ -45,6 +45,10 @@
     "NAME": "Glowing Eyes",
     "DESCRIPTION": "Apply !M! ${ModID}:Charm."
   },
+  "${ModID}:HeartBreaker": {
+    "NAME": "Heart Breaker",
+    "DESCRIPTION": "Whenever you lose HP from a card, deal !M! damage to a random enemy."
+  },
   "${ModID}:ImageChange": {
     "NAME": "Image Change",
     "DESCRIPTION": "At the start of your turn, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , but draw !M! less card{!M!|>1=s}."
@@ -72,6 +76,11 @@
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Retain. NL Exit your Stance."
+  },
+  "${ModID}:Overheat": {
+    "NAME": "Overheat",
+    "DESCRIPTION": "Enter ${ModID}:Flame. NL Draw X cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Enter ${ModID}:Flame. NL Draw X cards."
   },
   "${ModID}:Phantasm": {
     "NAME": "Phantasm",

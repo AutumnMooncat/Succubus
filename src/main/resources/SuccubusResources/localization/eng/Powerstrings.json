@@ -72,5 +72,9 @@
   "${ModID}:SexyAuraPower": {
     "NAME": "Sexy Aura",
     "DESCRIPTIONS": ["Whenever you switch #yStances, apply #b"," #yCharm to ALL enemies."]
+  },
+  "${ModID}:HeartBreakerPower": {
+    "NAME": "Heart Breaker",
+    "DESCRIPTIONS": ["Whenever you lose HP from a card, deal #b"," damage to a random enemy."]
   }
 }
