@@ -72,7 +72,7 @@ public class MainModfile implements
     private static final String CARD_ENERGY_S = modID + "Resources/images/512/energy.png";
     private static final String TEXT_ENERGY = modID + "Resources/images/512/energy_text.png";
     private static final String CARD_ENERGY_L = modID + "Resources/images/1024/energy_large.png";
-    private static final String CHARSELECT_BUTTON = modID + "Resources/images/charSelect/charButton.png";
+    private static final String CHARSELECT_BUTTON = modID + "Resources/images/charSelect/charButton2.png";
     private static final String CHARSELECT_PORTRAIT = modID + "Resources/images/charSelect/charBG.png";
 
     public static final String BADGE_IMAGE = modID + "Resources/images/Badge.png";
