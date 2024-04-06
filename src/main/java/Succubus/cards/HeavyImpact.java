@@ -14,10 +14,10 @@ import com.megacrit.cardcrawl.vfx.combat.EmptyStanceEffect;
 
 import static Succubus.MainModfile.makeID;
 
-public class SwiftImpact extends AbstractEasyCard {
-    public final static String ID = makeID(SwiftImpact.class.getSimpleName());
+public class HeavyImpact extends AbstractEasyCard {
+    public final static String ID = makeID(HeavyImpact.class.getSimpleName());
 
-    public SwiftImpact() {
+    public HeavyImpact() {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = damage = 5;
     }

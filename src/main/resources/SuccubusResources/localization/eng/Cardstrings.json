@@ -49,6 +49,10 @@
     "NAME": "Heart Breaker",
     "DESCRIPTION": "Whenever you lose HP from a card, deal !M! damage to a random enemy."
   },
+  "${ModID}:HeavyImpact": {
+    "NAME": "Heavy Impact",
+    "DESCRIPTION": "Deal !D! damage. NL If you are in a Stance, exit it and deal double damage."
+  },
   "${ModID}:HostageTaker": {
     "NAME": "Hostage Taker",
     "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, the enemy also takes !M! damage."
@@ -140,10 +144,6 @@
     "EXTENDED_DESCRIPTION": [
       "I can't play this card."
     ]
-  },
-  "${ModID}:SwiftImpact": {
-    "NAME": "Swift Impact",
-    "DESCRIPTION": "Deal !D! damage. NL If you are in a Stance, exit it and deal double damage."
   },
   "${ModID}:Swingamajig": {
     "NAME": "Swingamajig",
