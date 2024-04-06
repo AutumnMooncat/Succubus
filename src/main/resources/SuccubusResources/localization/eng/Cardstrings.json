@@ -9,6 +9,11 @@
     "NAME": "Accelerate",
     "DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard !M! cards."
   },
+  "${ModID}:AdaptiveAegis": {
+    "NAME": "Adaptive Aegis",
+    "DESCRIPTION": "Gain Block equal to the enemy's intent. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": ["Gain Block equal to the enemy's intent. NL (Gain !B! Block) NL Exhaust."]
+  },
   "${ModID}:BigOlBite": {
     "NAME": "Big Ol' Bite",
     "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust."
@@ -149,6 +154,10 @@
   "${ModID}:ShadeSpirit": {
     "NAME": "Shade Spirit",
     "DESCRIPTION": "Enter ${ModID}:Shadow. NL If the enemy intends to Attack, gain !B! Block."
+  },
+  "${ModID}:Showstopper": {
+    "NAME": "Showstopper",
+    "DESCRIPTION": "Gain !B! Block. NL ${ModID}:Finale: Apply 99 ${ModID}:Charm to ALL enemies and Exhaust."
   },
   "${ModID}:SoulSeeker": {
     "NAME": "Soul Seeker",
