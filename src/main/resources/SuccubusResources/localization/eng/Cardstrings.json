@@ -5,9 +5,20 @@
     "UPGRADE_DESCRIPTION": "Upgrade description",
     "EXTENDED_DESCRIPTION": ["Extra Stuff"]
   },
+  "${ModID}:Accelerate": {
+    "NAME": "Accelerate",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard !M! cards."
+  },
   "${ModID}:BigOlBite": {
     "NAME": "Big Ol' Bite",
     "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust."
+  },
+  "${ModID}:Blazing": {
+    "NAME": "Blazing",
+    "DESCRIPTION": "Choose an Attack. NL Increase its damage by !M! this combat.",
+    "EXTENDED_DESCRIPTION": [
+      "Boost"
+    ]
   },
   "${ModID}:BonesOut": {
     "NAME": "Bones Out",
@@ -121,6 +132,14 @@
   "${ModID}:Punisher": {
     "NAME": "Punisher",
     "DESCRIPTION": "Attacks deal {@@}{!M!|0=0%|1=50%|2=100%|3=150%|4=200%|5=250%|6=300%|7=350%|8=400%|9=450%|10=500%|@=a lot} more damage to enemies with Succubus:Charm."
+  },
+  "${ModID}:Reflexes": {
+    "NAME": "Reflexes",
+    "DESCRIPTION": "Gain !B! Block. NL If the enemy intends to Attack, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
+  "${ModID}:ReturnSweep": {
+    "NAME": "Return Sweep",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If this card is discarded from your hand, play a copy of it."
   },
   "${ModID}:Sanctuary": {
     "NAME": "Sanctuary",
