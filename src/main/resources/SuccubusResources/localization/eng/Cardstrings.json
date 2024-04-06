@@ -5,6 +5,10 @@
     "UPGRADE_DESCRIPTION": "Upgrade description",
     "EXTENDED_DESCRIPTION": ["Extra Stuff"]
   },
+  "${ModID}:BigOlBite": {
+    "NAME": "Big Ol' Bite",
+    "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust."
+  },
   "${ModID}:BonesOut": {
     "NAME": "Bones Out",
     "DESCRIPTION": "Whenever an Attack deals 9 or more unblocked damage, apply !M! Vulnerable."
@@ -24,6 +28,10 @@
   "${ModID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:Evasion": {
+    "NAME": "Evasion",
+    "DESCRIPTION": "Gain !B! Block. NL Exit your Stance. NL Draw !M! card{@@}{!M!|>1=s}."
   },
   "${ModID}:FireBolt": {
     "NAME": "Fire Bolt",
@@ -64,6 +72,10 @@
   "${ModID}:Jettison": {
     "NAME": "Jettison",
     "DESCRIPTION": "Gain !B! Block. NL Discard up to !M! cards."
+  },
+  "${ModID}:LifeEssence": {
+    "NAME": "Life Essence",
+    "DESCRIPTION": "Deal !D! damage. NL Heal HP equal to unblocked damage dealt. NL Exhaust."
   },
   "${ModID}:LightTheTorch": {
     "NAME": "Light the Torch",
