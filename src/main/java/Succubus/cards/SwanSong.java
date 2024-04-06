@@ -12,10 +12,10 @@ import com.megacrit.cardcrawl.vfx.combat.GrandFinalEffect;
 
 import static Succubus.MainModfile.makeID;
 
-public class ModestFinale extends AbstractEasyCard {
-    public final static String ID = makeID(ModestFinale.class.getSimpleName());
+public class SwanSong extends AbstractEasyCard {
+    public final static String ID = makeID(SwanSong.class.getSimpleName());
 
-    public ModestFinale() {
+    public SwanSong() {
         super(ID, 1, CardType.ATTACK, CardRarity.RARE, CardTarget.ALL_ENEMY);
         baseDamage = damage = 20;
         isMultiDamage = true;

@@ -100,13 +100,6 @@
     "NAME": "Malice",
     "DESCRIPTION": "At the end of your turn, if you are in ${ModID}:Shadow, deal !M! damage to ALL enemies."
   },
-  "${ModID}:ModestFinale": {
-    "NAME": "Modest Finale",
-    "DESCRIPTION": "Can only be played if there are no other cards in your hand. NL Deal !D! damage to ALL enemies.",
-    "EXTENDED_DESCRIPTION": [
-      "I have other cards in my hand."
-    ]
-  },
   "${ModID}:NullCard": {
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
@@ -174,6 +167,13 @@
     "DESCRIPTION": "Unplayable. NL Ethereal. NL If this card is Exhausted, draw !M! cards.",
     "EXTENDED_DESCRIPTION": [
       "I can't play this card."
+    ]
+  },
+  "${ModID}:SwanSong": {
+    "NAME": "Swan Song",
+    "DESCRIPTION": "Can only be played if there are no other cards in your hand. NL Deal !D! damage to ALL enemies.",
+    "EXTENDED_DESCRIPTION": [
+      "I have other cards in my hand."
     ]
   },
   "${ModID}:Swingamajig": {
