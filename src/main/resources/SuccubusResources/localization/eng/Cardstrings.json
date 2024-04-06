@@ -202,7 +202,7 @@
   },
   "${ModID}:ViolentWaltz": {
     "NAME": "Violent Waltz",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL ${ModID}:Finale: Deal !D! damage to ALL enemies again."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. NL ${ModID}:Finale: Deal !D! damage to ALL enemies again."
   },
   "${ModID}:VoidSlice": {
     "NAME": "Void Slice",

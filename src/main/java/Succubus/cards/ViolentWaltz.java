@@ -16,12 +16,13 @@ public class ViolentWaltz extends AbstractEasyCard {
 
     public ViolentWaltz() {
         super(ID, 2, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
-        baseDamage = damage = 12;
+        baseDamage = damage = 7;
         isMultiDamage = true;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        allDmg(AbstractGameAction.AttackEffect.BLUNT_LIGHT);
         allDmg(AbstractGameAction.AttackEffect.BLUNT_LIGHT);
         addToBot(new FinaleAction(() -> allDmgTop(AbstractGameAction.AttackEffect.BLUNT_HEAVY)));
     }
@@ -35,7 +36,7 @@ public class ViolentWaltz extends AbstractEasyCard {
 
     @Override
     public void upp() {
-        upgradeDamage(3);
+        upgradeDamage(2);
     }
 
     @Override
