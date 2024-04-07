@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.blue.BeamCell;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -28,6 +29,7 @@ public class LoveBeam extends AbstractEasyCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new SFXAction("ATTACK_MAGIC_BEAM_SHORT", 0.5F));
         addToBot(new VFXAction(new ColoredSmallLaserEffect(m.hb.cX, m.hb.cY, p.hb.cX, p.hb.cY, Color.PINK)));
         dmg(m, AbstractGameAction.AttackEffect.NONE);
         addToBot(new DoIfAction(() -> m.hasPower(CharmPower.POWER_ID), () -> {
