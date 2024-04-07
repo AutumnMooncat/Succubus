@@ -98,5 +98,11 @@
     "DESCRIPTIONS": [
       "Whenever you enter #yFlame, you may #yExhaust #b1 card to draw #b1 card.",
       "Whenever you enter #yFlame, you may #yExhaust up to #b"," cards to draw that many cards."]
+  },
+  "${ModID}:StalkerPower": {
+    "NAME": "Stalker",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #b1 random card in your hand costs #b1 less this turn.",
+      "At the start of your turn, #b"," random cards in your hand cost #b1 less this turn."]
   }
 }

@@ -137,6 +137,10 @@
     "NAME": "Meteor Shower",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
   },
+  "${ModID}:MightyStrike": {
+    "NAME": "Mighty Strike",
+    "DESCRIPTION": "Deal !D! damage. NL ${ModID}:Finale: Permanently increase this card's damage by !M!. NL Exhaust."
+  },
   "${ModID}:NullCard": {
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
@@ -206,6 +210,10 @@
   "${ModID}:SoulSeeker": {
     "NAME": "Soul Seeker",
     "DESCRIPTION": "Deal !D! damage. NL If this kills an enemy, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} . NL Enter Succubus:Shadow."
+  },
+  "${ModID}:StalkerForm": {
+    "NAME": "Stalker Form",
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, !M! random cards in your hand cost 1 less this turn."
   },
   "${ModID}:Strike": {
     "NAME": "Strike",
