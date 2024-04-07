@@ -14,6 +14,10 @@
     "DESCRIPTION": "Gain Block equal to the enemy's intent. NL Exhaust.",
     "EXTENDED_DESCRIPTION": ["Gain Block equal to the enemy's intent. NL (Gain !B! Block) NL Exhaust."]
   },
+  "${ModID}:Bewitch": {
+    "NAME": "Bewitch",
+    "DESCRIPTION": "Apply !M! ${ModID}:Charm to ALL enemies. NL Exhaust."
+  },
   "${ModID}:BigOlBite": {
     "NAME": "Big Ol' Bite",
     "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust."
@@ -137,6 +141,10 @@
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Retain. NL Exit your Stance."
+  },
+  "${ModID}:Offload": {
+    "NAME": "Offload",
+    "DESCRIPTION": "Discard up to !M! cards. NL Gain [E] for each card discarded this way."
   },
   "${ModID}:Overexert": {
     "NAME": "Overexert",
