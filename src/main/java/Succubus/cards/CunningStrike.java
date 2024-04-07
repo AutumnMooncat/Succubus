@@ -17,6 +17,7 @@ public class CunningStrike extends AbstractEasyCard {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = damage = 15;
         baseInfo = info = 3;
+        tags.add(CardTags.STRIKE);
     }
 
     @Override
