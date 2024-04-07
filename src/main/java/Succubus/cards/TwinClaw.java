@@ -1,10 +1,11 @@
 package Succubus.cards;
 
+import Succubus.actions.ApplyCardModifierAction;
+import Succubus.cardmods.FlatDamageMod;
 import Succubus.cards.abstracts.AbstractEasyCard;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.ModifyDamageAction;
 import com.megacrit.cardcrawl.cards.blue.Scrape;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -29,7 +30,7 @@ public class TwinClaw extends AbstractEasyCard {
         }
         dmg(m, AbstractGameAction.AttackEffect.NONE);
         dmg(m, AbstractGameAction.AttackEffect.NONE);
-        addToBot(new ModifyDamageAction(this.uuid, magicNumber));
+        addToBot(new ApplyCardModifierAction(this, new FlatDamageMod(magicNumber)));
     }
 
     @Override
