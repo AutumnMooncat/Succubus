@@ -19,7 +19,7 @@ public class HeavyImpact extends AbstractEasyCard {
 
     public HeavyImpact() {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
-        baseDamage = damage = 5;
+        baseDamage = damage = 6;
     }
 
     @Override
