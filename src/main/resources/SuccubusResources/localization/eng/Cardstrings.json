@@ -25,6 +25,10 @@
       "Boost"
     ]
   },
+  "${ModID}:Blitz": {
+    "NAME": "Blitz",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage."
+  },
   "${ModID}:BonesOut": {
     "NAME": "Bones Out",
     "DESCRIPTION": "Whenever an Attack deals 9 or more unblocked damage, apply !M! Vulnerable."
@@ -40,6 +44,10 @@
   "${ModID}:CloseQuarters": {
     "NAME": "Close Quarters",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${ModID}:Charm."
+  },
+  "${ModID}:CunningStrike": {
+    "NAME": "Cunning Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Deals !${ModID}:I! less damage for each other card in your hand."
   },
   "${ModID}:Defend": {
     "NAME": "Defend",
@@ -60,6 +68,14 @@
   "${ModID}:Flamewalker": {
     "NAME": "Flamewalker",
     "DESCRIPTION": "Gain !B! Block. NL Enter ${ModID}:Flame."
+  },
+  "${ModID}:FocusPunch": {
+    "NAME": "Focus Punch",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy does not intend to Attack, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
+  "${ModID}:Gambit": {
+    "NAME": "Gambit",
+    "DESCRIPTION": "Put a random Attack from your draw pile into your hand. Increase its damage by !M! this combat."
   },
   "${ModID}:Gambler": {
     "NAME": "Gambler",
@@ -105,10 +121,22 @@
     "NAME": "Malice",
     "DESCRIPTION": "At the end of your turn, if you are in ${ModID}:Shadow, deal !M! damage to ALL enemies."
   },
+  "${ModID}:MegatonHammer": {
+    "NAME": "Megaton Hammer",
+    "DESCRIPTION": "Deal !D! damage. NL Deals double damage to enemies with Block."
+  },
+  "${ModID}:MeteorShower": {
+    "NAME": "Meteor Shower",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
   "${ModID}:NullCard": {
     "NAME": "Null",
     "DESCRIPTION": "Retain. NL Exit your Stance. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Retain. NL Exit your Stance."
+  },
+  "${ModID}:Overexert": {
+    "NAME": "Overexert",
+    "DESCRIPTION": "Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} . NL Next turn, discard 1 card."
   },
   "${ModID}:Overheat": {
     "NAME": "Overheat",
@@ -154,6 +182,10 @@
   "${ModID}:ShadeSpirit": {
     "NAME": "Shade Spirit",
     "DESCRIPTION": "Enter ${ModID}:Shadow. NL If the enemy intends to Attack, gain !B! Block."
+  },
+  "${ModID}:ShadowWithin": {
+    "NAME": "Shadow Within",
+    "DESCRIPTION": "Gain !B! Block. NL If you are in ${ModID}:Shadow, gain !M! additional Block."
   },
   "${ModID}:Showstopper": {
     "NAME": "Showstopper",

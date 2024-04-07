@@ -80,5 +80,11 @@
   "${ModID}:HostagePower": {
     "NAME": "Hostage",
     "DESCRIPTIONS": ["Whenever you are attacked this turn, this creature also takes #b"," damage."]
+  },
+  "${ModID}:NextTurnDiscardPower": {
+    "NAME": "Next Turn Discard",
+    "DESCRIPTIONS": [
+      "At the start of your next turn, #yDiscard a card.",
+      "At the start of your next turn, #yDiscard #b"," cards."]
   }
 }
