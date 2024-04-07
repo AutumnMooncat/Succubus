@@ -16,7 +16,7 @@ public class Jettison extends AbstractEasyCard {
 
     public Jettison() {
         super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
-        baseBlock = block = 5;
+        baseBlock = block = 7;
         baseMagicNumber = magicNumber = 2;
     }
 
