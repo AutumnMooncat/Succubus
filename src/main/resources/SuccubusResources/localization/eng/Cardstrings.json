@@ -101,6 +101,10 @@
     "NAME": "Image Change",
     "DESCRIPTION": "At the start of your turn, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} , but draw !M! less card{!M!|>1=s}."
   },
+  "${ModID}:Incinerate": {
+    "NAME": "Incinerate",
+    "DESCRIPTION": "Whenever you enter ${ModID}:Flame, you may Exhaust {@@}{!M!|>1=up to }!M! card{!M!|>1=s} to draw {@@}{!M!|>1=up to }!M! card{!M!|>1=s}."
+  },
   "${ModID}:Jettison": {
     "NAME": "Jettison",
     "DESCRIPTION": "Gain !B! Block. NL Discard up to !M! cards."
@@ -224,6 +228,10 @@
   "${ModID}:TailWhip": {
     "NAME": "Tail Whip",
     "DESCRIPTION": "Deal !D! damage. NL Apply ${ModID}:Charm equal to unblocked damage dealt."
+  },
+  "${ModID}:Temptation": {
+    "NAME": "Temptation",
+    "DESCRIPTION": "Whenever you play a card that costs 2 or more, draw !M! card{@@}{!M!|>1=s}."
   },
   "${ModID}:Tenebrosity": {
     "NAME": "Tenebrosity",

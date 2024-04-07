@@ -86,5 +86,17 @@
     "DESCRIPTIONS": [
       "At the start of your next turn, #yDiscard a card.",
       "At the start of your next turn, #yDiscard #b"," cards."]
+  },
+  "${ModID}:TemptationPower": {
+    "NAME": "Temptation",
+    "DESCRIPTIONS": [
+      "Whenever you play a card that costs #b2 or more, draw #b1 card.",
+      "Whenever you play a card that costs #b2 or more, draw #b"," cards."]
+  },
+  "${ModID}:IncineratePower": {
+    "NAME": "Incinerate",
+    "DESCRIPTIONS": [
+      "Whenever you enter #yFlame, you may #yExhaust #b1 card to draw #b1 card.",
+      "Whenever you enter #yFlame, you may #yExhaust up to #b"," cards to draw that many cards."]
   }
 }
