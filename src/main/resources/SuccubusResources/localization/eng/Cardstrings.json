@@ -5,6 +5,10 @@
     "UPGRADE_DESCRIPTION": "Upgrade description",
     "EXTENDED_DESCRIPTION": ["Extra Stuff"]
   },
+  "${ModID}:Aberration": {
+    "NAME": "Aberration",
+    "DESCRIPTION": "Enter ${ModID}:Illusion. NL Exhaust."
+  },
   "${ModID}:Accelerate": {
     "NAME": "Accelerate",
     "DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard !M! cards."
@@ -37,6 +41,10 @@
     "NAME": "Bones Out",
     "DESCRIPTION": "Whenever an Attack deals 9 or more unblocked damage, apply !M! Vulnerable."
   },
+  "${ModID}:BoxOfStrikes": {
+    "NAME": "Box of Strikes",
+    "DESCRIPTION": "Shuffle X{@@}{!M!|>0= + !M!} random Attacks containing \"Strike\" into your draw pile. They cost 0 this combat. NL Exhaust."
+  },
   "${ModID}:BurnToEmerge": {
     "NAME": "Burn to Emerge",
     "DESCRIPTION": "Deal !D! damage. NL Enter ${ModID}:Flame."
@@ -56,6 +64,13 @@
   "${ModID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:DoubleBladed": {
+    "NAME": "Double Bladed",
+    "DESCRIPTION": "Choose an Attack. NL Double its damage and give it Exhaust. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Boost"
+    ]
   },
   "${ModID}:Evasion": {
     "NAME": "Evasion",
@@ -89,6 +104,10 @@
     "NAME": "Glowing Eyes",
     "DESCRIPTION": "Apply !M! ${ModID}:Charm."
   },
+  "${ModID}:Haste": {
+    "NAME": "Haste",
+    "DESCRIPTION": "Draw cards until you have !M! Energy worth of cards in your hand."
+  },
   "${ModID}:HeartBreaker": {
     "NAME": "Heart Breaker",
     "DESCRIPTION": "Whenever you lose HP from a card, deal !M! damage to a random enemy."
@@ -96,6 +115,14 @@
   "${ModID}:HeavyImpact": {
     "NAME": "Heavy Impact",
     "DESCRIPTION": "Deal !D! damage. NL If you are in a Stance, exit it and deal double damage."
+  },
+  "${ModID}:HiddenBlade": {
+    "NAME": "Hidden Blade",
+    "DESCRIPTION": "Unplayable. NL If this card is Exhausted, put a random Attack into your hand. It costs 0 this combat.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL If this card is Exhausted, put a random Upgraded Attack into your hand. It costs 0 this combat.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
   },
   "${ModID}:HostageTaker": {
     "NAME": "Hostage Taker",
@@ -112,6 +139,10 @@
   "${ModID}:Jettison": {
     "NAME": "Jettison",
     "DESCRIPTION": "Gain !B! Block. NL Discard up to !M! cards."
+  },
+  "${ModID}:LeadingStrike": {
+    "NAME": "Leading Strike",
+    "DESCRIPTION": "Deal !D! damage. NL The next Attack you play costs 0."
   },
   "${ModID}:LifeEssence": {
     "NAME": "Life Essence",
@@ -187,6 +218,10 @@
     "NAME": "Sanctuary",
     "DESCRIPTION": "Gain !B! Block. NL While held, cards will not Exhaust on play."
   },
+  "${ModID}:Scorch": {
+    "NAME": "Scorch",
+    "DESCRIPTION": "Exhaust 1 card. NL Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
   "${ModID}:Sedate": {
     "NAME": "Sedate",
     "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies."
@@ -203,9 +238,21 @@
     "NAME": "Shadow Within",
     "DESCRIPTION": "Gain !B! Block. NL If you are in ${ModID}:Shadow, gain !M! additional Block."
   },
+  "${ModID}:Sharpen": {
+    "NAME": "Sharpen",
+    "DESCRIPTION": "Deal !D! damage. NL Increase the damage of ALL your cards containing \"Strike\" by !M! this combat."
+  },
+  "${ModID}:Sheathe": {
+    "NAME": "Sheathe",
+    "DESCRIPTION": "Gain !B! Block. NL If this card is discarded from your hand, increase the damage of all Attacks in your hand by !M! this combat."
+  },
   "${ModID}:Showstopper": {
     "NAME": "Showstopper",
     "DESCRIPTION": "Gain !B! Block. NL ${ModID}:Finale: Apply 99 ${ModID}:Charm to ALL enemies and Exhaust."
+  },
+  "${ModID}:SmokeAndMirrors": {
+    "NAME": "Smoke and Mirrors",
+    "DESCRIPTION": "If this card is Exhausted, gain !M! Intangible. NL Exhaust."
   },
   "${ModID}:SoulSeeker": {
     "NAME": "Soul Seeker",
@@ -260,6 +307,10 @@
   "${ModID}:TwinClaw": {
     "NAME": "Twin Claw",
     "DESCRIPTION": "Deal !D! damage twice. NL Increase this card's damage by !M! this combat."
+  },
+  "${ModID}:Unity": {
+    "NAME": "Unity",
+    "DESCRIPTION": "Draw and Upgrade !M! cards."
   },
   "${ModID}:UnstablePower": {
     "NAME": "Unstable Power",
