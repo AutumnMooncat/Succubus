@@ -13,7 +13,7 @@ public class OnPlayerAttackedPatches {
     public static class AttackedHook {
         @SpireInsertPatch(locator = Locator.class)
         public static void plz(AbstractPlayer __instance, DamageInfo info) {
-            if (info.owner != null) {
+            if (info.owner != null && Wiz.isInCombat()) {
                 Wiz.forAllMonstersLiving(mon -> {
                     for (AbstractPower p : mon.powers) {
                         if (p instanceof OnPlayerAttackedPower) {
