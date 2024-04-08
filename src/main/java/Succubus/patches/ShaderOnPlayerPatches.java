@@ -1,8 +1,8 @@
 package Succubus.patches;
 
-import Succubus.MainModfile;
 import Succubus.stances.interfaces.ShaderOnPlayerStance;
 import Succubus.util.ImageHelper;
+import Succubus.util.Wiz;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -32,25 +32,27 @@ public class ShaderOnPlayerPatches {
 
         @SpireInsertPatch(locator = OffLocator.class)
         public static void off(AbstractPlayer __instance, SpriteBatch sb) {
-            if (capturing && __instance.stance instanceof ShaderOnPlayerStance) {
+            if (capturing) {
                 sb.end();
                 fb.end();
                 sb.begin();
-                draw(sb, ((ShaderOnPlayerStance) __instance.stance).getShader(__instance));
+                draw(sb);
             }
         }
 
-        public static void draw(SpriteBatch sb, ShaderProgram sp) {
+        public static void draw(SpriteBatch sb) {
             TextureRegion r = ImageHelper.getBufferTexture(fb);
             ShaderProgram origShader = sb.getShader();
             Color origColor = sb.getColor();
-            sp.begin();
-            sb.setShader(sp);
-            sp.setUniformf("x_time", MainModfile.time);
+            //sp.begin();
+            if (Wiz.adp().stance instanceof ShaderOnPlayerStance) {
+                sb.setShader(((ShaderOnPlayerStance) Wiz.adp().stance).getShader(Wiz.adp()));
+            }
+            //sp.setUniformf("x_time", MainModfile.time);
             sb.setColor(Color.WHITE);
             sb.draw(r, 0, 0);
             sb.setShader(origShader);
-            sp.end();
+            //sp.end();
             sb.setColor(origColor);
             capturing = false;
         }
