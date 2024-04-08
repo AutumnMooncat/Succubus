@@ -13,7 +13,7 @@ public class Temptation extends AbstractEasyCard {
     public final static String ID = makeID(Temptation.class.getSimpleName());
 
     public Temptation() {
-        super(ID, 2, CardType.POWER, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, 1, CardType.POWER, CardRarity.UNCOMMON, CardTarget.SELF);
         baseMagicNumber = magicNumber = 1;
     }
 
