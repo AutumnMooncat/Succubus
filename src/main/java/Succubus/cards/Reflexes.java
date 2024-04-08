@@ -16,7 +16,7 @@ public class Reflexes extends AbstractEasyCard {
 
     public Reflexes() {
         super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
-        baseBlock = block = 6;
+        baseBlock = block = 5;
         baseMagicNumber = magicNumber = 1;
     }
 
