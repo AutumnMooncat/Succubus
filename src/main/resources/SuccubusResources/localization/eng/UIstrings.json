@@ -58,7 +58,7 @@
   "${ModID}:ShadowStance": {
     "TEXT": [
       "Shadow",
-      "Upon exiting this #yStance, convert your #yBlock into #yTemporary #yHP."
+      "Upon exiting this #yStance, gain #b5 #yTemporary #yHP."
     ]
   },
   "${ModID}:FlameStance": {

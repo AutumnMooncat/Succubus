@@ -40,7 +40,7 @@
     "NAMES": [
       "shadow"
     ],
-    "DESCRIPTION": "Upon exiting this #yStance, convert your #yBlock into #yTemporary #yHP."
+    "DESCRIPTION": "Upon exiting this #yStance, gain #b5 #yTemporary #yHP."
   },
   {
     "ID": "flame",

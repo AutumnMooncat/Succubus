@@ -1,10 +1,8 @@
 package Succubus.stances;
 
 import Succubus.MainModfile;
-import Succubus.actions.DoAction;
 import Succubus.stances.interfaces.ShaderOnPlayerStance;
 import Succubus.util.Wiz;
-import Succubus.vfx.ColoredSmokeBombEffect;
 import Succubus.vfx.ColoredStanceAuraEffect;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -12,8 +10,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShaderProgram;
 import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.actions.tempHp.AddTemporaryHPAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.RemoveAllBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -50,10 +46,11 @@ public class ShadowStance extends AbstractStance implements ShaderOnPlayerStance
 
     @Override
     public void onExitStance() {
-        AbstractDungeon.actionManager.addToBottom(new DoAction(() -> {
+        AbstractDungeon.actionManager.addToBottom(new AddTemporaryHPAction(Wiz.adp(), Wiz.adp(), 5));
+        /*AbstractDungeon.actionManager.addToBottom(new DoAction(() -> {
             AbstractDungeon.actionManager.addToTop(new AddTemporaryHPAction(Wiz.adp(), Wiz.adp(), Wiz.adp().currentBlock));
             AbstractDungeon.actionManager.addToTop(new RemoveAllBlockAction(Wiz.adp(), Wiz.adp()));
-        }));
+        }));*/
     }
 
     @Override
