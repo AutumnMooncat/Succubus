@@ -94,7 +94,7 @@ public class IllusionStance extends AbstractStance implements ShaderOnPlayerStan
         this.particleTimer2 -= Gdx.graphics.getDeltaTime();// 56
         if (this.particleTimer2 < 0.0F) {// 57
             this.particleTimer2 = MathUtils.random(0.3F, 0.4F);// 58
-            AbstractDungeon.effectsQueue.add(new ColoredStanceAuraEffect(COLOR));
+            AbstractDungeon.effectsQueue.add(new ColoredStanceAuraEffect(MainModfile.getRainbowColor()));
         }
     }
 
