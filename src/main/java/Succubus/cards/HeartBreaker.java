@@ -13,7 +13,7 @@ public class HeartBreaker extends AbstractEasyCard {
     public final static String ID = makeID(HeartBreaker.class.getSimpleName());
 
     public HeartBreaker() {
-        super(ID, 2, CardType.POWER, CardRarity.RARE, CardTarget.SELF);
+        super(ID, 1, CardType.POWER, CardRarity.RARE, CardTarget.SELF);
         baseMagicNumber = magicNumber = 7;
     }
 
