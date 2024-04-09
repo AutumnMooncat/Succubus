@@ -27,11 +27,12 @@ public class PrecisionStrike extends AbstractEasyCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        dmg(m, AbstractGameAction.AttackEffect.SLASH_DIAGONAL);
         addToBot(new BetterSelectCardsInHandAction(1, DiscardAction.TEXT[0], false, false, c -> true, cards -> {
             for (AbstractCard c : cards) {
                 if (m != null) {
                     damage *= c.costForTurn;
-                    dmgTop(m, AbstractGameAction.AttackEffect.SLASH_DIAGONAL);
+                    dmgTop(m, AbstractGameAction.AttackEffect.BLUNT_LIGHT);
                     addToTop(new VFXAction(VFXContainer.throwEffect(TextureSniper.snipeCard(c), 0.25f, m.hb, MainModfile.SUCCUBUS_ROSE_COLOR, true, true)));
                     //addToTop(new SFXAction("APPEAR"));
                     addToTop(new DiscardSpecificCardAction(c));

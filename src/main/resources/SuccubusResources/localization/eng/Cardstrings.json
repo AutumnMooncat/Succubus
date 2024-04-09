@@ -200,7 +200,7 @@
   },
   "${ModID}:PrecisionStrike": {
     "NAME": "Precision Strike",
-    "DESCRIPTION": "Discard 1 card. NL Deal damage equal to !D! times its cost."
+    "DESCRIPTION": "Deal !D! damage. NL Discard 1 card. NL Deal damage equal to !D! times its cost."
   },
   "${ModID}:Punisher": {
     "NAME": "Punisher",
