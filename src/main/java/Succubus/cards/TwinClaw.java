@@ -1,15 +1,20 @@
 package Succubus.cards;
 
-import Succubus.actions.ApplyCardModifierAction;
+import Succubus.actions.DoAction;
 import Succubus.cardmods.FlatDamageMod;
 import Succubus.cards.abstracts.AbstractEasyCard;
+import Succubus.util.Wiz;
+import basemod.helpers.CardModifierManager;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.blue.Scrape;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.RipAndTearEffect;
+
+import java.util.ArrayList;
 
 import static Succubus.MainModfile.makeID;
 
@@ -30,7 +35,15 @@ public class TwinClaw extends AbstractEasyCard {
         }
         dmg(m, AbstractGameAction.AttackEffect.NONE);
         dmg(m, AbstractGameAction.AttackEffect.NONE);
-        addToBot(new ApplyCardModifierAction(this, new FlatDamageMod(magicNumber)));
+        addToBot(new DoAction(() -> {
+            CardModifierManager.addModifier(this, new FlatDamageMod(magicNumber));
+            ArrayList<AbstractCard> cards = Wiz.getAllCardsInCardGroups(true, true);
+            for (AbstractCard card : cards) {
+                if (card instanceof TwinClaw) {
+                    CardModifierManager.addModifier(card, new FlatDamageMod(magicNumber));
+                }
+            }
+        }));
     }
 
     @Override

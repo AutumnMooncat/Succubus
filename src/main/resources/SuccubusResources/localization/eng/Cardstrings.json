@@ -306,7 +306,7 @@
   },
   "${ModID}:TwinClaw": {
     "NAME": "Twin Claw",
-    "DESCRIPTION": "Deal !D! damage twice. NL Increase this card's damage by !M! this combat."
+    "DESCRIPTION": "Deal !D! damage twice. NL Increase the damage of ALL Twin Claw cards by !M! this combat."
   },
   "${ModID}:Unity": {
     "NAME": "Unity",
