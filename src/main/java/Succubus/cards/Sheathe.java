@@ -3,7 +3,6 @@ package Succubus.cards;
 import Succubus.actions.DoAction;
 import Succubus.cardmods.FlatDamageMod;
 import Succubus.cards.abstracts.AbstractEasyCard;
-import Succubus.cards.interfaces.PreventExhaustIfHeldCard;
 import Succubus.util.Wiz;
 import basemod.helpers.CardModifierManager;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -13,7 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static Succubus.MainModfile.makeID;
 
-public class Sheathe extends AbstractEasyCard implements PreventExhaustIfHeldCard {
+public class Sheathe extends AbstractEasyCard {
     public final static String ID = makeID(Sheathe.class.getSimpleName());
 
     public Sheathe() {
@@ -49,10 +48,5 @@ public class Sheathe extends AbstractEasyCard implements PreventExhaustIfHeldCar
     @Override
     public String cardArtCopy() {
         return SecondWind.ID;
-    }
-
-    @Override
-    public boolean preventExhaust(AbstractCard card) {
-        return true;
     }
 }
