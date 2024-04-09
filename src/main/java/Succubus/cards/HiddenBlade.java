@@ -14,18 +14,12 @@ public class HiddenBlade extends AbstractEasyCard {
     public final static String ID = makeID(HiddenBlade.class.getSimpleName());
 
     public HiddenBlade() {
-        super(ID, -2, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
-        baseMagicNumber = magicNumber = 2;
+        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
+        exhaust = true;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {}
-
-    @Override
-    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        this.cantUseMessage = cardStrings.EXTENDED_DESCRIPTION[0];
-        return false;
-    }
 
     @Override
     public void triggerOnExhaust() {

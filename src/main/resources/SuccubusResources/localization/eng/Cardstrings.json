@@ -118,11 +118,8 @@
   },
   "${ModID}:HiddenBlade": {
     "NAME": "Hidden Blade",
-    "DESCRIPTION": "Unplayable. NL If this card is Exhausted, put a random Attack into your hand. It costs 0 this combat.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL If this card is Exhausted, put a random Upgraded Attack into your hand. It costs 0 this combat.",
-    "EXTENDED_DESCRIPTION": [
-      "I can't play this card."
-    ]
+    "DESCRIPTION": "If this card is Exhausted, put a random Attack into your hand. It costs 0 this combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "If this card is Exhausted, put a random Upgraded Attack into your hand. It costs 0 this combat. NL Exhaust."
   },
   "${ModID}:HostageTaker": {
     "NAME": "Hostage Taker",
