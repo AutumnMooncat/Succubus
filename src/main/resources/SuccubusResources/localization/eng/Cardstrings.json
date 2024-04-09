@@ -241,7 +241,7 @@
   },
   "${ModID}:Sheathe": {
     "NAME": "Sheathe",
-    "DESCRIPTION": "Gain !B! Block. NL If this card is discarded from your hand, increase the damage of all Attacks in your hand by !M! this combat."
+    "DESCRIPTION": "Gain !B! Block. NL Increase the damage of all Attacks in your hand by !M! this combat."
   },
   "${ModID}:Showstopper": {
     "NAME": "Showstopper",

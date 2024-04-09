@@ -17,18 +17,13 @@ public class Sheathe extends AbstractEasyCard {
 
     public Sheathe() {
         super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
-        baseBlock = block = 9;
+        baseBlock = block = 7;
         baseMagicNumber = magicNumber = 3;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         blck();
-    }
-
-    @Override
-    public void triggerOnManualDiscard() {
-        superFlash();
         addToBot(new DoAction(() -> {
             for (AbstractCard card : Wiz.adp().hand.group) {
                 if (card.type == CardType.ATTACK) {
@@ -36,12 +31,11 @@ public class Sheathe extends AbstractEasyCard {
                 }
             }
         }));
-
     }
 
     @Override
     public void upp() {
-        upgradeBlock(3);
+        upgradeBlock(2);
         upgradeMagicNumber(1);
     }
 
