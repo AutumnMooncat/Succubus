@@ -3,7 +3,7 @@ package Succubus.cards;
 import Succubus.cards.abstracts.AbstractEasyCard;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
-import com.megacrit.cardcrawl.cards.red.BurningPact;
+import com.megacrit.cardcrawl.cards.purple.WreathOfFlame;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -30,6 +30,6 @@ public class Scorch extends AbstractEasyCard {
 
     @Override
     public String cardArtCopy() {
-        return BurningPact.ID;
+        return WreathOfFlame.ID;
     }
 }
