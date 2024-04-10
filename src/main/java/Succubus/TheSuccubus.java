@@ -2,7 +2,7 @@ package Succubus;
 
 import Succubus.cards.*;
 import Succubus.cards.interfaces.SkillAnimationAttack;
-import Succubus.relics.DemonSoul;
+import Succubus.relics.Cestus;
 import Succubus.ui.BetterCustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
@@ -97,7 +97,7 @@ public class TheSuccubus extends CustomPlayer {
 
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(DemonSoul.ID);
+        retVal.add(Cestus.ID);
         return retVal;
     }
 

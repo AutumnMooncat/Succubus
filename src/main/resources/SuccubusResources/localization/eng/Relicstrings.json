@@ -1,15 +1,15 @@
 {
-  "${ModID}:DragonSoul": {
-    "NAME": "Dragon Soul",
-    "FLAVOR": "The refined soul of a higher being.",
+  "${ModID}:DemonWing": {
+    "NAME": "Demon Wing",
+    "FLAVOR": "Sorry, it doesn't give you the power of flight.",
     "DESCRIPTIONS": [
-      "Replaces [#c66c80]Demon [#c66c80]Soul. The first #b3 Attacks you play each combat are played twice.",
+      "Replaces [#c66c80]Cestus. The first #b3 Attacks you play each combat are played twice.",
       "Energy duplicated: "," NL Per turn: "," NL Per combat: "
     ]
   },
-  "${ModID}:DemonSoul": {
-    "NAME": "Demon Soul",
-    "FLAVOR": "The soul of a lesser demon flows through you.",
+  "${ModID}:Cestus": {
+    "NAME": "Cestus",
+    "FLAVOR": "You can't help but let out a \"hmph!\" when you swing.",
     "DESCRIPTIONS": [
       "The first Attack you play each combat is played twice.",
       "Energy duplicated: "," NL Per turn: "," NL Per combat: "
