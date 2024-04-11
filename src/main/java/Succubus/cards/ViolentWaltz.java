@@ -22,9 +22,9 @@ public class ViolentWaltz extends AbstractEasyCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        allDmg(AbstractGameAction.AttackEffect.BLUNT_LIGHT);
-        allDmg(AbstractGameAction.AttackEffect.BLUNT_LIGHT);
-        addToBot(new FinaleAction(() -> allDmgTop(AbstractGameAction.AttackEffect.BLUNT_HEAVY)));
+        allDmg(AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
+        allDmg(AbstractGameAction.AttackEffect.SLASH_VERTICAL);
+        addToBot(new FinaleAction(() -> allDmgTop(AbstractGameAction.AttackEffect.SLASH_HEAVY)));
     }
 
     public void triggerOnGlowCheck() {

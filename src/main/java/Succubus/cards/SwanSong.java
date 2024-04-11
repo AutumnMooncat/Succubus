@@ -24,7 +24,7 @@ public class SwanSong extends AbstractEasyCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new VFXAction(new GrandFinalEffect(), 0.7F));
-        allDmg(AbstractGameAction.AttackEffect.SLASH_DIAGONAL);
+        allDmg(AbstractGameAction.AttackEffect.SLASH_HEAVY);
     }
 
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
