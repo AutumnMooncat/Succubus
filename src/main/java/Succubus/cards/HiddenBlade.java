@@ -14,7 +14,7 @@ public class HiddenBlade extends AbstractEasyCard {
     public final static String ID = makeID(HiddenBlade.class.getSimpleName());
 
     public HiddenBlade() {
-        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
+        super(ID, 2, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
         exhaust = true;
     }
 
