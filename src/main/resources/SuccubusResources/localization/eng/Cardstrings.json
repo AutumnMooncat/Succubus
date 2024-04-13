@@ -291,7 +291,7 @@
   },
   "${ModID}:Temptation": {
     "NAME": "Temptation",
-    "DESCRIPTION": "Whenever you play a card that costs 2 or more, draw !M! card{@@}{!M!|>1=s}."
+    "DESCRIPTION": "Whenever a card is Exhausted, increase the damage of ALL your Attacks by !M! this combat."
   },
   "${ModID}:Tenebrosity": {
     "NAME": "Tenebrosity",

@@ -89,9 +89,7 @@
   },
   "${ModID}:TemptationPower": {
     "NAME": "Temptation",
-    "DESCRIPTIONS": [
-      "Whenever you play a card that costs #b2 or more, draw #b1 card.",
-      "Whenever you play a card that costs #b2 or more, draw #b"," cards."]
+    "DESCRIPTIONS": ["Whenever a card is #yExhausted, increase the damage of ALL your Attacks by #b,"," this combat."]
   },
   "${ModID}:IncineratePower": {
     "NAME": "Incinerate",

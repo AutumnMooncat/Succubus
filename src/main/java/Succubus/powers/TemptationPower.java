@@ -1,12 +1,16 @@
 package Succubus.powers;
 
 import Succubus.MainModfile;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import Succubus.actions.DoAction;
+import Succubus.cardmods.FlatDamageMod;
+import Succubus.util.Wiz;
+import basemod.helpers.CardModifierManager;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.PowerStrings;
+
+import java.util.ArrayList;
 
 public class TemptationPower extends AbstractEasyPower {
     public static final String POWER_ID = MainModfile.makeID(TemptationPower.class.getSimpleName());
@@ -21,18 +25,17 @@ public class TemptationPower extends AbstractEasyPower {
 
     @Override
     public void updateDescription() {
-        if (amount == 1) {
-            this.description = DESCRIPTIONS[0];
-        } else {
-            this.description = DESCRIPTIONS[1] + amount + DESCRIPTIONS[2];
-        }
+        this.description = DESCRIPTIONS[0] + amount + DESCRIPTIONS[1];
     }
 
     @Override
-    public void onUseCard(AbstractCard card, UseCardAction action) {
-        if (card.costForTurn >= 2 || (card.cost == -1 && card.energyOnUse >= 2)) {
-            flash();
-            addToBot(new DrawCardAction(amount));
-        }
+    public void onExhaust(AbstractCard c) {
+        flash();
+        addToBot(new DoAction(() -> {
+            ArrayList<AbstractCard> cards = Wiz.getAllCardsInCardGroups(true, true);
+            for (AbstractCard card : cards) {
+                CardModifierManager.addModifier(card, new FlatDamageMod(amount));
+            }
+        }));
     }
 }
