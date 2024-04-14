@@ -184,8 +184,8 @@
   },
   "${ModID}:Overheat": {
     "NAME": "Overheat",
-    "DESCRIPTION": "Enter ${ModID}:Flame. NL Draw X cards. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Enter ${ModID}:Flame. NL Draw X cards."
+    "DESCRIPTION": "Enter ${ModID}:Flame. NL Draw X cards. NL Attacks drawn this way cost 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Enter ${ModID}:Flame. NL Attacks drawn this way cost 0 this turn. NL Draw X cards."
   },
   "${ModID}:Phantasm": {
     "NAME": "Phantasm",

@@ -1,10 +1,12 @@
 package Succubus.cards;
 
+import Succubus.actions.DoAction;
 import Succubus.actions.EasyXCostAction;
 import Succubus.cards.abstracts.AbstractEasyCard;
 import Succubus.stances.FlameStance;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.blue.Overclock;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -29,7 +31,13 @@ public class Overheat extends AbstractEasyCard {
                 effect += i;
             }
             if (effect >= 1) {
-                addToTop(new DrawCardAction(effect));
+                addToTop(new DrawCardAction(effect, new DoAction(() -> {
+                    for (AbstractCard card : DrawCardAction.drawnCards) {
+                        if (card.type == CardType.ATTACK) {
+                            card.setCostForTurn(0);
+                        }
+                    }
+                })));
             }
             return true;
         }));
