@@ -213,7 +213,7 @@
   },
   "${ModID}:Sanctuary": {
     "NAME": "Sanctuary",
-    "DESCRIPTION": "Gain !B! Block. NL While held, cards will not Exhaust on play."
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust 1 card."
   },
   "${ModID}:Scorch": {
     "NAME": "Scorch",

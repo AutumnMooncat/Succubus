@@ -13,8 +13,8 @@ public class Accelerate extends AbstractEasyCard {
     public final static String ID = makeID(Accelerate.class.getSimpleName());
 
     public Accelerate() {
-        super(ID, 2, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
-        baseBlock = block = 12;
+        super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
+        baseBlock = block = 6;
         baseMagicNumber = magicNumber = 2;
     }
 
@@ -27,7 +27,7 @@ public class Accelerate extends AbstractEasyCard {
 
     @Override
     public void upp() {
-        upgradeBlock(4);
+        upgradeBlock(3);
         //upgradeMagicNumber(1);
     }
 
