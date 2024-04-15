@@ -89,7 +89,7 @@
   },
   "${ModID}:TemptationPower": {
     "NAME": "Temptation",
-    "DESCRIPTIONS": ["Whenever a card is #yExhausted, increase the damage of ALL your Attacks by #b,"," this combat."]
+    "DESCRIPTIONS": ["Whenever a card is #yExhausted, increase the damage of ALL your Attacks by #b"," this combat."]
   },
   "${ModID}:IncineratePower": {
     "NAME": "Incinerate",
