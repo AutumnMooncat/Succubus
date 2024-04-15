@@ -34,7 +34,9 @@ public class TemptationPower extends AbstractEasyPower {
         addToBot(new DoAction(() -> {
             ArrayList<AbstractCard> cards = Wiz.getAllCardsInCardGroups(true, true);
             for (AbstractCard card : cards) {
-                CardModifierManager.addModifier(card, new FlatDamageMod(amount));
+                if (card.type == AbstractCard.CardType.ATTACK) {
+                    CardModifierManager.addModifier(card, new FlatDamageMod(amount));
+                }
             }
         }));
     }
