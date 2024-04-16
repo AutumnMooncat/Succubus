@@ -19,8 +19,8 @@ public class MightyStrike extends AbstractEasyCard {
 
     public MightyStrike() {
         super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
-        baseDamage = damage = 5;
-        baseMagicNumber = magicNumber = 2;
+        baseDamage = damage = 6;
+        baseMagicNumber = magicNumber = 3;
         tags.add(CardTags.STRIKE);
         exhaust = true;
     }
