@@ -18,7 +18,6 @@ public class Overheat extends AbstractEasyCard {
 
     public Overheat() {
         super(ID, -1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
-        selfRetain = true;
         exhaust = true;
     }
 
