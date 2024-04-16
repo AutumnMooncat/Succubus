@@ -53,7 +53,7 @@ public class HeavyImpact extends AbstractEasyCard {
 
     @Override
     public void upp() {
-        upgradeDamage(2);
+        upgradeDamage(3);
     }
 
     @Override
