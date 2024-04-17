@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.green.DaggerThrow;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 import static Succubus.MainModfile.makeID;
 
@@ -31,7 +32,11 @@ public class PrecisionStrike extends AbstractEasyCard {
         addToBot(new BetterSelectCardsInHandAction(1, DiscardAction.TEXT[0], false, false, c -> true, cards -> {
             for (AbstractCard c : cards) {
                 if (m != null) {
-                    damage *= c.costForTurn;
+                    if (c.costForTurn == -1) {
+                        damage *= EnergyPanel.getCurrentEnergy();
+                    } else {
+                        damage *= c.costForTurn;
+                    }
                     dmgTop(m, AbstractGameAction.AttackEffect.BLUNT_LIGHT);
                     addToTop(new VFXAction(VFXContainer.throwEffect(TextureSniper.snipeCard(c), 0.25f, m.hb, MainModfile.SUCCUBUS_ROSE_COLOR, true, true)));
                     //addToTop(new SFXAction("APPEAR"));
