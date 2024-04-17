@@ -18,7 +18,7 @@ public class MegatonHammer extends AbstractEasyCard {
 
     public MegatonHammer() {
         super(ID, 4, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
-        baseDamage = damage = 25;
+        baseDamage = damage = 30;
     }
 
     @Override
@@ -45,7 +45,7 @@ public class MegatonHammer extends AbstractEasyCard {
 
     @Override
     public void upp() {
-        upgradeDamage(5);
+        upgradeDamage(10);
     }
 
     @Override
