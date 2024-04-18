@@ -17,6 +17,7 @@ public class LifeEssence extends AbstractEasyCard {
     public LifeEssence() {
         super(ID, 2, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = damage = 6;
+        tags.add(CardTags.HEALING);
         exhaust = true;
     }
 

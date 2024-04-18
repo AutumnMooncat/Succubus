@@ -21,6 +21,7 @@ public class BigOlBite extends AbstractEasyCard {
         super(ID, 3, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = damage = 22;
         baseMagicNumber = magicNumber = 3;
+        tags.add(CardTags.HEALING);
         exhaust = true;
     }
 
