@@ -1,6 +1,7 @@
 package Succubus.actions;
 
 import Succubus.util.Wiz;
+import basemod.BaseMod;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -20,7 +21,7 @@ public class HasteAction extends AbstractGameAction {
                 sum += c.costForTurn;
             }
         }
-        if (sum < amount && !(Wiz.adp().drawPile.isEmpty() && Wiz.adp().discardPile.isEmpty())) {
+        if (sum < amount && !(Wiz.adp().drawPile.isEmpty() && Wiz.adp().discardPile.isEmpty()) && Wiz.adp().hand.size() < BaseMod.MAX_HAND_SIZE) {
             addToTop(new HasteAction(amount));
             addToTop(new DrawCardAction(1));
         }
